@@ -1,4 +1,4 @@
 # ivanmtoroc
 
 ## Hi!
-I'm fullstack developer and system engineer student that love code and learn everything.
+I'm fullstack developer and student of systems engineering that love code and learn about everything.

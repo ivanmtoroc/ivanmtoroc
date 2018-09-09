@@ -1,49 +1,98 @@
 body {
   height: 100vh;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   font-family: 'Open Sans', sans-serif;
+  filter: blur(1);
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
 }
 
 a {
   text-decoration: none;
-  color: black;
-  transition: .3s;
+  transition: .4s;
+  color: white;
+}
+
+a:visited {
+  color: white;
 }
 
 a:hover {
-  color: blue;
+  color: #42AF5C;
+  text-decoration: none;
 }
 
-.card {
-  border: 1px solid grey;
-  margin: 0 auto;
-  padding: 0 40px;
-  width: 30%;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(10, 10, 10,1));
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .name {
-  font-size: 40px;
-  transition: .3s;
+  font-size: 50px;
+  transition: .4s;
   font-family: 'Roboto', sans-serif;
+  color: #42AF5C;
+  margin-top: 10px;
 }
 
 .name:hover {
-  color: grey;
+  color: #77C177;
 }
 
-.networks, .description {
-  font-size: 24px;
+.network, .description {
+  font-size: 30px;
 }
 
-.networks ul {
-  list-style-type: none;
-  padding: 0;
+.network {
+  text-align: center;
 }
 
-.description {
-  font-size: 24px;
-  margin-top: 50px;
+.profession {
+  color: #42AF5C;
+}
+
+.github:hover {
+  color: #42464A;
+}
+
+.linkedin:hover {
+  color: #0077B5;
+}
+
+.stackoverflow:hover {
+  color: #F48138;
+}
+
+.twitter:hover {
+  color: #49AAE6
+}
+
+.medium:hover {
+  color: #42464A;
+}
+
+.instagram:hover {
+  color: #C44C86;
+}
+
+.email:hover {
+  color: #BF3A2B;
 }

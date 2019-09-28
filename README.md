@@ -10,4 +10,4 @@ I'm full stack developer and student of systems engineering, that love coding, r
 
 ## Deployed
 
-Deployed using Github Pages in [ivanmtoroc](http://ivanmtoroc.me/).
+Deployed using Github Pages in [ivanmtoroc](http://ivanmtoroc.tech/).
